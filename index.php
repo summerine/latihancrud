@@ -11,6 +11,10 @@ include "koneksi.php";
  	<link rel="stylesheet" type="text/css" href="style.css">
  </head>
  <body>
+ 	<ul>
+ 		<li><a href="index.php">Index</a></li>
+ 		<li><a href="tambah.php">Tambah Data</a></li>
+ 	</ul>
  	<h1>Latihan CRUD</h1>
  <div class="container">
  	<form action="tambah.php" method="POST">
